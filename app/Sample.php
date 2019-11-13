@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Sample extends Model
+{
+    //
+    protected $table = 'Sample';
+    protected $fillable = [
+        'name', 'lat', 'lng'
+    ];
+}
